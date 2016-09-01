@@ -1,0 +1,62 @@
+Test cases
+
+1.   Inputs: 1, 1
+     Output: 1 + 1 = 2 
+	 TRUE
+
+2.   Inputs: 9, 0
+     Output: 9 + 0 = 9    
+	 TRUE
+
+3.   Inputs: 89456126578, 81861513215
+     Output: 89456126578 + 81861513215 = 171317639793 
+	 TRUE
+	 
+4.   Inputs: 2546, 2894
+     Output: 2546 + 2894 = 5440
+	 TRUE
+	 
+5.   Inputs: 555, 1256
+     Output: 555 + 1256 = 1811
+	 TRUE
+	
+6.   Inputs: 186, 289
+     Output: 186 + 289 = 475
+	 TRUE
+
+7.   Inputs: 123, 123
+     Output: 123 + 123 = 246
+	 TRUE
+	 
+8.   Inputs: 123456789, 987654321
+     Output: 123456789 + 987654321 = 1111111110
+	 TRUE
+	 
+9.   Inputs: 99, 2 
+     Output: 99 + 2 = 101
+	 TRUE
+	 
+10.  Input: One   (My program checks after each input if said input is only 
+                   numbers, so the user would only be able to put in one input here)
+     Output: ERROR NON-NUMERIC INPUT
+	 TRUE
+	 
+11.  Inputs: 3, Five
+     Output: ERROR NON-NUMERIC INPUT
+	 TRUE
+
+12.  Inputs: 12, %$#
+     Output: ERROR NON-NUMERIC INPUT
+	 TRUE
+	 
+13.  Input: ☺   (a character without an ASCII equivalent
+     Output: ERROR NON-NUMERIC INPUT
+	 TRUE
+	 
+14.  Inputs: 000,123
+     Output: 000 + 123 = 123
+	 TRUE
+	 
+15.  Inputs: 01, 15
+     Output: 01 + 15 = 16
+	 TRUE
